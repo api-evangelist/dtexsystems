@@ -1,0 +1,14 @@
+generated: '2026-07-18'
+method: searched
+source: https://trust.dtex.ai/
+url: https://trust.dtex.ai/
+# Verified live DTEX Trust Center exists. The page is JavaScript-rendered
+# (Vanta-style trust portal) so named certifications could not be extracted
+# programmatically; left empty rather than fabricated. Update on a re-run if
+# a static/API listing of certifications becomes fetchable.
+certifications: []
+evidence:
+- source: https://trust.dtex.ai/
+  keywords:
+  - dtex trust center
+  note: live trust center portal (200); linked from https://www.dtex.ai/ footer

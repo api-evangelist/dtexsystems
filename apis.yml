@@ -1,9 +1,30 @@
 aid: dtexsystems
 name: Dtexsystems
-description: 'Dtexsystems is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'DTEX Systems (DTEX) is a cybersecurity company delivering a risk-adaptive
+  insider risk management platform. Its DTEX InTERCEPT product and Platform v7 unify
+  insider threat detection, data loss prevention (DLP), user activity monitoring (UAM),
+  and AI/agentic risk governance through behavioral intelligence rather than intrusive
+  content inspection. The platform correlates human behavior across endpoints to surface
+  early-warning indicators along the insider threat kill chain, uses OCSF-aligned connectors
+  and standardized schemas to export enriched telemetry to SIEM, SOAR, and ITSM tooling,
+  and ships agentic defenders (Triage Guardian and Threat Hunter) to automate investigations.
+  DTEX is backed by Norwest Venture Partners and serves enterprise and government customers.
+  It was surfaced as a portfolio company and enriched into the API Evangelist network;
+  no public developer program, OpenAPI, or self-serve API documentation is currently
+  published — integration is via the enterprise platform and OCSF connectors.'
 url: https://raw.githubusercontent.com/api-evangelist/dtexsystems/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.dtex.ai/wp-content/uploads/2024/08/DTEX-Main-Logo_Black.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Unknown
+- Cybersecurity
+- Insider Risk Management
+- Data Loss Prevention
+- User Activity Monitoring
+- Behavioral Analytics
+- AI Risk Governance
+- Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +51,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://dtexsystems.com
+  url: https://www.dtex.ai/
+- type: Blog
+  url: https://www.dtex.ai/blog/
+- type: Support
+  url: https://support.mydtex.net/
+- type: SignUp
+  url: https://www.dtex.ai/request-a-demo/
+- type: PrivacyPolicy
+  url: https://www.dtex.ai/privacy-policy/
+- type: TermsOfService
+  url: https://www.dtex.ai/terms-of-use/
+- type: TrustCenter
+  url: https://trust.dtex.ai/
+- type: DomainSecurity
+  url: security/dtexsystems-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

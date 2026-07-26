@@ -1,0 +1,18 @@
+generated: '2026-07-18'
+method: searched
+host: https://www.dtexsystems.com
+# All standard /.well-known/ discovery endpoints probed and returned 404 on both
+# apex and www (and on dtex.ai). No security.txt, OIDC, oauth-authorization-server,
+# api-catalog, or ai-plugin.json published. Recorded for idempotency; no scoring
+# pointer emitted since nothing was found.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
