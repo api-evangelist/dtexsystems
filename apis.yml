@@ -1,17 +1,15 @@
 aid: dtexsystems
 name: Dtexsystems
-description: 'DTEX Systems (DTEX) is a cybersecurity company delivering a risk-adaptive
-  insider risk management platform. Its DTEX InTERCEPT product and Platform v7 unify
-  insider threat detection, data loss prevention (DLP), user activity monitoring (UAM),
-  and AI/agentic risk governance through behavioral intelligence rather than intrusive
-  content inspection. The platform correlates human behavior across endpoints to surface
-  early-warning indicators along the insider threat kill chain, uses OCSF-aligned connectors
-  and standardized schemas to export enriched telemetry to SIEM, SOAR, and ITSM tooling,
-  and ships agentic defenders (Triage Guardian and Threat Hunter) to automate investigations.
-  DTEX is backed by Norwest Venture Partners and serves enterprise and government customers.
-  It was surfaced as a portfolio company and enriched into the API Evangelist network;
-  no public developer program, OpenAPI, or self-serve API documentation is currently
-  published — integration is via the enterprise platform and OCSF connectors.'
+description: DTEX Systems (DTEX) is a cybersecurity company delivering a risk-adaptive insider risk management
+  platform. Its DTEX InTERCEPT product and Platform v7 unify insider threat detection, data loss prevention
+  (DLP), user activity monitoring (UAM), and AI/agentic risk governance through behavioral intelligence
+  rather than intrusive content inspection. The platform correlates human behavior across endpoints to
+  surface early-warning indicators along the insider threat kill chain, uses OCSF-aligned connectors and
+  standardized schemas to export enriched telemetry to SIEM, SOAR, and ITSM tooling, and ships agentic
+  defenders (Triage Guardian and Threat Hunter) to automate investigations. DTEX is backed by Norwest
+  Venture Partners and serves enterprise and government customers. It was surfaced as a portfolio company
+  and enriched into the API Evangelist network; no public developer program, OpenAPI, or self-serve API
+  documentation is currently published — integration is via the enterprise platform and OCSF connectors.
 url: https://raw.githubusercontent.com/api-evangelist/dtexsystems/refs/heads/main/apis.yml
 accessModel:
   pricing: unknown
@@ -33,7 +31,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-08-08'
 tags:
 - Company
 - Cybersecurity
@@ -66,8 +64,12 @@ common:
   url: https://trust.dtex.ai/
 - type: DomainSecurity
   url: security/dtexsystems-domain-security.yml
+- type: Integrations
+  url: https://www.dtex.ai/integrations/
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-merged-from:
+- dtex-systems
