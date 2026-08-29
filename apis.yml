@@ -11,6 +11,17 @@ description: DTEX Systems (DTEX) is a cybersecurity company delivering a risk-ad
   and enriched into the API Evangelist network; no public developer program, OpenAPI, or self-serve API
   documentation is currently published — integration is via the enterprise platform and OCSF connectors.
 url: https://raw.githubusercontent.com/api-evangelist/dtexsystems/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
