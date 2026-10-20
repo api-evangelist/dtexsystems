@@ -38,11 +38,11 @@ x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - norwest-venture-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-20 (local-v5; was portfolio-lead)
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-08-08'
+modified: '2026-10-20'
 tags:
 - Company
 - Cybersecurity
@@ -52,17 +52,30 @@ tags:
 - Behavioral Analytics
 - AI Risk Governance
 - Security
-apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/dtexsystems-trust-center.yml
+- type: Hosts
+  url: hosts/dtexsystems-hosts.yml
+- type: IntegrationEdges
+  url: integrations/dtexsystems-integration-edges.yml
+- type: Vendors
+  url: vendors/dtexsystems-vendors.yml
+- type: Newsroom
+  url: https://www.dtex.ai/newsroom/
+- type: Leadership
+  url: https://www.dtex.ai/leadership/tam-vu/
 - type: Website
   url: https://www.dtex.ai/
 - type: Blog
   url: https://www.dtex.ai/blog/
+- type: Documentation
+  url: https://www.dtex.ai/resources/guides/
 - type: Support
   url: https://support.mydtex.net/
 - type: SignUp
@@ -77,10 +90,24 @@ common:
   url: security/dtexsystems-domain-security.yml
 - type: Integrations
   url: https://www.dtex.ai/integrations/
+apis: []
 x-enrichment:
-  date: '2026-07-19'
-  status: backfilled
-  pass: local-v1
-  note: backfilled from .gitignore signal + verified work evidence
+  date: '2026-10-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v5
 x-merged-from:
 - dtex-systems
+x-coverage:
+  state: gated
+  reason: customer-only-docs
+  detail: DTEX publishes no public API reference or spec; product documentation lives on the customer
+    support portal support.mydtex.net, whose /mcp endpoint answers 403, and www.dtex.ai/llms.txt is 404.
+  evidence:
+  - url: https://support.mydtex.net/mcp
+    status: 403
+  - url: https://www.dtex.ai/llms.txt
+    status: 404
+  - url: https://support.mydtex.net/
+    status: 200
+  checked: '2026-10-20'

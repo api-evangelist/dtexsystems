@@ -1,7 +1,17 @@
-generated: '2026-10-13'
+generated: '2026-10-20'
 method: searched
+source:
+- https://zapier.com/apps/dtexsystems/integrations
+- https://n8n.io/integrations/dtexsystems/
+- https://composio.dev/toolkits/dtexsystems
+- https://monid.ai/tools/dtexsystems
 checked:
 - https://aws.amazon.com/marketplace/
+- https://composio.dev/toolkits/dtexsystems
+- https://monid.ai/tools/dtexsystems
+- https://n8n.io/integrations/dtexsystems/
+- https://zapier.com/apps/dtexsystems/integrations
+summary: null
 marketplace_apps: []
 edges:
 - partner_name: AWS Marketplace
@@ -20,3 +30,4 @@ edges:
   seller_name: DTEX
   detected_by: sweep-cloud-marketplaces.py
   detected: '2026-10-13'
+templates: []
